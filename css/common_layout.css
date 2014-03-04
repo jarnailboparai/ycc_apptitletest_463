@@ -51,7 +51,9 @@ body {
 }
 a.item{
 
-    background: url("../images/icon_bg.png") no-repeat scroll 0 0/100% 100% rgba(0, 0, 0, 0);
+    background-image: url("../images/icon_bg.png");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
     display: table-cell;
     height: 70px;
     text-align: center;
